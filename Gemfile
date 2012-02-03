@@ -40,3 +40,8 @@ group :test do
 	gem 'spork'
 	gem 'webrat', '0.7.1'
 end
+
+group :production do
+  # gems specifically for Heroku go here
+  gem "pg"
+end
