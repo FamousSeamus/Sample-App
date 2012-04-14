@@ -47,5 +47,6 @@ end
 
 #group :production do
   # gems specifically for Heroku go here
-  #gem "pg"
+	#gem 'therubyracer-heroku', '0.8.1.pre3' # you will need this too
+  	gem 'pg'
 #end
