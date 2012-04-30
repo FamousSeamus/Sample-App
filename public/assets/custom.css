@@ -166,3 +166,43 @@ div.field, div.actions{
   font-size: 12px;
   list-style: square;
 }
+
+ul.users{
+	margin-top:1em;
+}
+ul.users li{
+	list-style:none;
+	display:block;
+	clear:both;
+	margin-bottom:1em;
+}
+
+/* microposts */
+table.microposts tr.even, table.microposts tr:nth-child(even) td{
+	background:none
+}
+.microposts {
+ 	list-style: none;
+ 	margin: 10px 0 0 0;
+}
+.microposts td, .microposts td.even, .microposts td.odd {
+	padding: 10px 0;
+	border-top: 1px solid #e8e8e8;
+	background:none
+} 
+.content {
+  display: block;
+}
+.timestamp {
+	display:block;
+	font-size: 85%;
+	color: #666;
+}
+.gravatar {
+  float: left;
+  margin-right: 10px;
+}
+ textarea {
+    height: 100px;
+    margin-bottom: 5px;
+  }

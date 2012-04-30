@@ -166,6 +166,7 @@ div.field, div.actions{
   font-size: 12px;
   list-style: square;
 }
+
 ul.users{
 	margin-top:1em;
 }
@@ -176,8 +177,9 @@ ul.users li{
 /* microposts */
 
 .microposts {
-  list-style: none;
-  margin: 10px 0 0 0;
+ 	list-style: none;
+ 	margin: 10px 0 0 0;
+	display:block;
 }
 .microposts td {
   padding: 10px 0;
@@ -187,15 +189,15 @@ ul.users li{
   display: block;
 }
 .timestamp {
-  color: #eeeeee;
+	display:block;
+	font-size: 85%;
+	color: #666;
 }
 .gravatar {
   float: left;
   margin-right: 10px;
 }
-aside {
-  textarea {
+ textarea {
     height: 100px;
     margin-bottom: 5px;
   }
-}
