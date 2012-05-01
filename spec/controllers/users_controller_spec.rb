@@ -338,14 +338,17 @@ describe UsersController do
    end
    
    describe "follow pages" do
+     
     describe "when not signed in" do
       it "should protect following" do
         get :following, :id => 1
-        resonse.should redirect_to(signin_path)
+        response.should redirect_to(signin_path)
       end
+      
       it "should protect following" do
         get :followers, :id => 1
-        resonse.should redirect_to(signin_path)
+        response.should redirect_to(signin_path)
+      
       end
     end
     describe "when signed in" do
